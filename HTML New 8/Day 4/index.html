@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Table 
+   Heading => Caption
+    1. Row => tr
+
+    2. Col => th,td
+
+    table
+    thead
+    tbody
+    tfoot
+
+    rowspan
+    colspan
+    
+    -->
+
+
+    <table border="2" align="center" cellspacing="10" cellpadding="20" width="100%" height="600">
+        <!-- Heading -->
+        <caption>Student Table</caption>
+        <thead>
+            <!-- Top Row of Table -->
+            <tr>
+                <th>Name</th>
+                <th>Section</th>
+                <th>Email</th>
+                <th>Marks</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" bgcolor="red">Visha Maam</td>
+                <td bgcolor="orange">A</td>
+                <td>visha@gmail.com</td>
+                <td>100</td>
+                <td>abc</td>
+            </tr>
+            <tr>
+                <!-- <td>Visha Maam</td> -->
+                <td>A</td>
+                <td colspan="3" bgcolor="green">visha@gmail.com</td>
+                <!-- <td>100</td>
+                <td>abc</td> -->
+            </tr>
+            <tr>
+                <td>Visha Maam</td>
+                <td>A</td>
+                <td>visha@gmail.com</td>
+                <td>100</td>
+                <td>abc</td>
+            </tr>
+            <tr>
+                <td>Visha Maam</td>
+                <td>A</td>
+                <td>visha@gmail.com</td>
+                <td rowspan="3">100</td>
+                <td>abc</td>
+            </tr>
+            <tr>
+                <td>Visha Maam</td>
+                <td>A</td>
+                <td>visha@gmail.com</td>
+                <!-- <td>100</td> -->
+                <td>abc</td>
+            </tr>
+            <tr>
+                <td>Visha Maam</td>
+                <td>A</td>
+                <td>visha@gmail.com</td>
+                <!-- <td>100</td> -->
+                <td>abc</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Visha Maam</td>
+                <td>A</td>
+                <td>visha@gmail.com</td>
+                <td>100</td>
+                <td>abc</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+
+
+</body>
+
+</html>

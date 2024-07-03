@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table{
+            text-align: center;
+            border-collapse:collapse;
+        }
+       th, tr,td{
+            border: 1px solid black;
+        }
+        .image-container {
+            position: relative;
+            width: 150px; /* Adjust width and height as needed */
+            height: 50px;
+        }
+
+     
+        
+        .image-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white; /* Change text color as needed */
+            font-size: 18px; /* Change font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student Table</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th>Course</th>
+                <th>Mobile</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pawan Maurya</td>
+                <td>12345</td>
+                <td>Full Stack Development</td>
+                <td>9199999998</td>
+                <td>Red & White</td>
+            </tr>
+           
+                <tr>
+                    <td colspan="5" class="image-container">
+                        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3Dss" alt="">
+                        <div class="image-text">Hello World</div>
+                    </td>
+                </tr>
+           
+                <tr>
+                    <td>Pawan Maurya</td>
+                    <td>12345</td>
+                    <td>Full Stack Development</td>
+                    <td>9199999998</td>
+                    <td>Red & White</td>
+                </tr>
+                <tr>
+                    <td>Pawan Maurya</td>
+                    <td>12345</td>
+                    <td>Full Stack Development</td>
+                    <td>9199999998</td>
+                    <td>Red & White</td>
+                </tr>
+                <tr>
+                    <td>Pawan Maurya</td>
+                    <td>12345</td>
+                    <td>Full Stack Development</td>
+                    <td>9199999998</td>
+                    <td>Red & White</td>
+                </tr>
+
+
+        </tbody>
+        
+    </table>
+</body>
+</html>
