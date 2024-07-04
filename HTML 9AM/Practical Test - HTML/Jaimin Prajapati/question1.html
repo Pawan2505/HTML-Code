@@ -1,0 +1,60 @@
+<!-- 1. Use Input type “text, email, password, checkbox, radio, file, submit, reset” and Select, Option, and Button Tag.
+2. Include 1 heading tag for the title. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form: using HTML</title>
+</head>
+
+<body>
+    <h1> Enter your data </h1>
+    <br>
+    <form action="">
+        <label for="Name">Enter your name : </label>
+        <input type="text" id="Name" placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="Email">Enter your email : </label>
+        <input type="email" name="Email" size="20" id="Email" placeholder="abcd123@gmail.com" required>
+        <br>
+        <br>
+        <label for="Password">Enter Password : </label>
+        <input type="password" id="Password" placeholder="Enter Password" required>
+        <br>
+        <br>
+        <label for="Gender"> Select gender : </label>
+        <span> Male : </span><input type="radio" id="Gender" name="Gender" value="male">
+        <span> Female : </span><input type="radio" id="Gender" name="Gender" value="female">
+        <br>
+        <br>
+        <lable for="SelectCity"> Select city : </lable>
+        <span> Ahmedabad : </span><input type="checkbox" id="SelectCity" name="city" value="Ahmedabad">
+        <span> Mumbai : </span><input type="checkbox" id="SelectCity" name="city" value="Mumbai">
+        <span> Banglore : </span><input type="checkbox" id="SelectCity" name="city" value="Banglore">
+        <span> Pune : </span><input type="checkbox" id="SelectCity" name="city" value="Pune">
+        <br>
+        <br>
+        <span> Select any one course you want to choose : </span>
+        <select name="Course" id="Course">
+            <value for="Full-Stack">Fullstack</value>
+            <value for="Mern-Stack">Mern-stack</value>
+            <value for="Front-End">Front-End</value>
+            <value for="Back-End">Back-End</value>
+        </select>
+
+        <br>
+        <br>
+        <label for="File"> Please uload your CV : </label>
+        <input type="file" id="File" name="file" required>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+    </form>
+
+</body>
+
+</html>

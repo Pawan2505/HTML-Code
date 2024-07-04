@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML : One page project.</title>
+</head>
+<body>
+    <h1>Conetnt section</h1>
+
+    <p>This is a smaple content section.</p>
+
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+    </ul>
+
+    <img src="./spider_man.jpg" alt="The image is not available." width="380"> 
+    <br>
+
+    <marquee behavior="left" scrollamount="2"><h4><font size="14">This is a marquee element.</font></h4></marquee><br>
+    <center>This content is center.</center>
+
+    <h3>Form section</h3>
+    <form action="">
+        <label for="Firstname">Name: </label>
+        <input type="text" name="Firstname" id="Firstname" required><br>
+
+        <lable for="Email">Email: </lable>
+        <input type="email" name="email" id="Email" required><br>
+
+        <lable for="Password">Password: </lable>
+        <input type="password" name="Password" id="Password" required><br>
+
+        <label for="Bio">Bio: </label><br>
+        <textarea name="Bio" id="Bio" rows="4" cols="31"></textarea>
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3>Table section</h3>
+
+    <table border="1" cellpadding="5">
+        <caption><center>Sample Table</center></caption>
+
+        <thead>
+            <tr> 
+                <th colspan="4" style="background-color: rgb(144, 224, 255);"><b>Header 1</b></th>
+                <th colspan="4" style="background-color: rgb(65, 214, 65);"><b>Header 2</b></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="2" rowspan="2" style="background-color: rgb(255, 91, 91);">Row 1 , Cell 1</td>
+                <td colspan="2">Row 1 , Cell 2</td>
+                <td colspan="2">Row 1 , Cell 3</td>
+                <td colspan="2">Row 1 , Cell 4</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Row 2 , Cell 2</td>
+                <td colspan="4" rowspan="2" style="background-color: beige;">Row 2 , Cell 3</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="background-color: rgb(255, 122, 27);">Row 3, Cell 1</td>
+                <td colspan="2" style="background-color: rgb(188, 188, 188);">Row 3, Cell 2</td>
+            </tr>
+
+            <tfoot>
+                <tr>
+                    <td colspan="8" style="background-color: pink;">Footer Content</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>
